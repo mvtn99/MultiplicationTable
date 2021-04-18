@@ -1,0 +1,35 @@
+.container {
+  padding: 50px 50px;
+}
+
+.center {
+  text-align: center;
+  background-color: ivory;
+  height: 700px;
+}
+
+.table {
+  width: 80%;
+  margin: auto;
+
+  border-radius: 10px;
+}
+
+td {
+  border-bottom: 1px solid gray;
+}
+
+tr {
+  height: 50px;
+}
+
+th {
+  background-color: rgb(14, 13, 13);
+  color: aliceblue;
+  font-size: 22px;
+  border: 1px solid gray;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(248, 248, 219);
+}
